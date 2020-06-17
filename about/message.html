@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>留言板</title>
+    <link rel="stylesheet" href="../css/message.css" />
+  </head>
+  <body>
+    <!-- 页眉 -->
+    <div id="header">
+      <div class="inner">
+        <h1>李君|个人网站</h1>
+      </div>
+    </div>
+    <!-- 导航栏 -->
+    <div id="naver">
+      <div class="inner">
+        <ul>
+          <li><a href="../index.html">首页|Home</a></li>
+          <li><a href="../about/resume.html">个人简历|Resume</a></li>
+          <li><a href="../about/life.html">生活点滴|Life</a></li>
+          <li><a href="../about/reading.html">读书日记|Reading</a></li>
+          <li><a href="../about/movies.html">电影推荐|Movies</a></li>
+          <li><a href="./message.html">留言板|Message</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- 内容区 -->
+    <div id="container">
+        <div id="messageBoard">
+          <h3>留言板|Message Board</h3>
+          <form action="">
+            <p id="cont1">
+              <span class="question">* 请输入您的昵称：</span>
+              <input type="text" name="name">
+            </p>
+            <p id="cont2">
+              <textarea name="message" id="message" placeholder="有什么想对我说的，请在这里留言吧"></textarea>
+            </p>
+            <p id="cont3">
+              <span class="question">* 您喜欢我的个人网页吗？</span><br>
+              <input type="radio" name="likeornot" value="1">喜欢 &nbsp;
+              <input type="radio" name="likeornot" value="2">一般 &nbsp;
+              <input type="radio" name="likeornot" value="3">不喜欢
+            </p>
+            <p id="cont4">
+              <span class="question">* 在我的读书日记中，您最喜欢的三本书是？</span><br>
+              <input type="checkbox" name="book" value="1">《活着》&nbsp;&nbsp;
+              <input type="checkbox" name="book" value="2">《围城》&nbsp;&nbsp;
+              <input type="checkbox" name="book" value="3">《白鹿原》&nbsp;
+              <input type="checkbox" name="book" value="4">《草房子》<br>
+              <input type="checkbox" name="book" value="5">《老人与海》
+              <input type="checkbox" name="book" value="6">《红楼梦》&nbsp;
+              <input type="checkbox" name="book" value="7">《小王子》<br>
+              <input type="checkbox" name="book" value="8">《倾城之恋》
+              <input type="checkbox" name="book" value="9">《骆驼祥子》
+              <input type="checkbox" name="book" value="10">《傲慢与偏见》
+            </p>
+            <p id="cont5">
+              <span class="question">* 在我的电影推荐中，您最喜欢的三部电影是？</span><br>
+              <input type="checkbox" name="movie" value="1">《芳华》&nbsp;&nbsp;&nbsp;
+              <input type="checkbox" name="movie" value="2">《少年的你》&nbsp;
+              <input type="checkbox" name="movie" value="3">《怦然心动》
+              <input type="checkbox" name="movie" value="4">《当幸福来敲门》<br>
+              <input type="checkbox" name="movie" value="5">《霸王别姬》&nbsp;
+              <input type="checkbox" name="movie" value="6">《七月与安生》
+              <input type="checkbox" name="movie" value="7">《82年生的金智英》<br>
+              <input type="checkbox" name="movie" value="8">《唐人街探案》
+              <input type="checkbox" name="movie" value="9">《飞驰人生》&nbsp;
+              <input type="checkbox" name="movie" value="10">《百鸟朝凤》
+            </p>
+            <p id="cont6">
+              <span class="question">* 请输入您的邮箱：</span>
+              <input type="email" name="email">
+            </p>
+            <p id="cont7">
+              <button type="submit">留言</button>
+            </p>
+          </form>
+        </div>
+    </div>
+    <!-- 页脚 -->
+    <div id="footer">
+      <div class="inner">
+        <p>
+          Designed and developed by LiJun.<br />
+          Copyright © 2020 LiJun.com. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

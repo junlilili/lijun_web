@@ -1,0 +1,240 @@
+body {
+    background-color: #E7EAEA;
+    font-family: "SimSun","Microsoft YaHei","Times New Roman",sans-serif;
+    font-size: 20px;
+    color: #404040;
+    margin: 0;
+    padding: 0;
+}
+
+.inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 100px;
+    color: #fff;   
+    background: black url(../images/life/head.jpg) no-repeat;
+}
+
+#header h1 {
+    margin: 0;
+    line-height: 100px;
+    text-align: right;
+}
+
+#naver {
+    height: 50px;
+    background-color: black;
+    color: #fff;
+}
+
+#naver ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#naver ul li {
+    display: inline-block;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#naver ul li:hover {
+    border-bottom: 2px solid darkorange;
+}
+
+#naver ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#naver ul li a:hover {
+    color: darkorange;
+}
+
+#container_1 {
+    height: 50px;
+    background-color: lavender;
+}
+
+#container_1 ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 14px;
+}
+
+#container_1 ul li {
+    display: inline-block;
+    width: 130px;
+    line-height: 50px;
+    text-align: center;   
+}
+
+#container_1 ul li a {
+    text-decoration: none;
+    color: #C0C0C0;
+}
+
+#container_1 ul li a:hover {
+    color: #333;
+}
+
+#container_2 {
+    height: 1940px;
+    padding-top: 10px;
+    background-color: lavender;
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid brown;
+}
+
+#cont_2_1 {
+    height: 590px;
+    padding-top: 20px;
+}
+
+#con_2_1_1 {
+    height: 500px;
+    width: 380px;
+    float: left;
+    margin-top: 60px;
+}
+
+#con_2_1_2 {
+    width: 290px;
+    float: left;
+    text-align: left;
+    text-indent: 2em;
+    line-height: 1.8em;
+    padding: 150px 5px 0 5px;
+}
+
+#con_2_1_3 {
+    height: 500px;
+    width: 320px;
+    float: right;
+}
+
+#cont_2_2 {
+    height: 800px;
+}
+
+#cont_2_2_left {
+    width: 490px;
+    float: left;
+}
+
+#cont_2_2_left p {
+    line-height: 1.5em;
+    text-indent: 2em;
+    text-align: left;
+    padding: 50px 0 100px 15px;
+}
+
+#cont_2_2_right {
+    width: 490px;
+    float: right;
+    text-align: right;
+}
+
+#cont_2_2_right p {
+    line-height: 1.5em;
+    text-indent: 2em;
+    text-align: left;
+    padding: 80px 15px 0 0;
+}
+
+#cont_2_3 {
+    height: 450px;
+    text-align: center;
+}
+
+#cont_2_3 p {
+    line-height: 1.5em;
+    text-indent: 2em;
+    text-align: left;
+    margin: 20px 15px 0 15px;
+}
+
+#container_3 {
+    height: 1850px;
+    background-color: rgb(255, 255, 230);
+}
+
+#cont_3_mid {
+    height: 500px;
+}
+
+#cont_3_left {
+    width: 390px;
+    height: 490px;
+    float: left;
+}
+
+#cont_3_right {
+    width: 600px;
+    height: 490px;
+    float: right;
+}
+
+#cont_3_right p {
+    margin: 50px 15px 50px 15px;
+    line-height: 1.5em;
+    text-indent: 2em;
+}
+
+#container_4 {
+    height: 930px;
+    background-color: #E3F6CE;
+    text-align: center;
+}
+
+#cont_4_1 {
+    height: 400px;
+}
+
+#cont_4_2 {
+    height: 400px;
+    margin-top: 20px;
+}
+
+#con_4_1_1 , #con_4_2_1 {
+    width: 320px;
+    height: 380px;
+    float: left;
+}
+
+#con_4_1_2 , #con_4_2_2 {
+    width: 310;
+    height: 380px;
+    float: left;
+}
+
+#con_4_1_2 , #con_4_2_3 {
+    width: 320px;
+    height: 400px;
+    float: right;
+}
+
+#footer {
+    height: 100px;
+    background-color: black;
+    padding-top: 15px;
+}
+
+#footer p {
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 16px;
+}
